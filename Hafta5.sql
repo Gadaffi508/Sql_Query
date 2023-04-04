@@ -1,0 +1,2 @@
+select count(*),ProductNumber from [VeriTabanýDersi].[dbo].[Product] group by ProductNumber --pructnumber tekrar eden grupluyor
+select count(*),ProductNumber from [VeriTabanýDersi].[dbo].[Product] where ProductNumber = '1' group by ProductNumber --product 1 olan sýrala
